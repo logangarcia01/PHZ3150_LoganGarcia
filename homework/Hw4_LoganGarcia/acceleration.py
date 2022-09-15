@@ -5,9 +5,9 @@ def acceleration(u1,u2,t1,t2):
     
     Output: acceleration [m/s^2]  """
     
-     a = (u2-u1)/(t2-t1)
-        
-        print( 'The acceleration of the object is' , a , 'm/s^2')
-        
-        return a
+    a = (u2-u1)/(t2-t1)
+    
+    print( 'The acceleration of the object is' , a , 'm/s^2')
+    
+    return a
             
