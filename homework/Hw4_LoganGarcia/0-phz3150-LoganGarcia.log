@@ -1,0 +1,297 @@
+Logan Garcia
+
+Log for PHZ3150 Fall 2022
+
+***** IN : Thursday Aug 25 12:42 pm ET 2022 *****
+
+Opened TextEdit, started this log, saved as:  
+Desktop/0-phz3150-LoganGarcia.log
+
+Downloaded anaconda navigator
+
+***** OUt : Thursday Aug 25 1:21 pm ET 2022 *****
+
+***** IN : Friday Aug 26 10:35 pm ET 2022 *****
+
+UCF Physics PHZ 3150: Introduction to Numerical Computing
+
+Name: Logan Garcia
+
+Email: logan.garcia2000@knights.ucf.edu
+
+Phone: 803-818-8354
+
+Major: Interdisiplinary Studies
+
+Year: 5th year
+
+ID: lo492446
+
+How did you hear about this course?
+
+It was on a list of courses to take with my physics minor
+
+Do you have a laptop you can bring to class, install software on, etc.?
+
+Yes
+
+What operating system and version does it run?
+
+Windows 10
+
+How much free disk space does it have?
+
+43GB
+
+What operating systems are you comfortable working in?
+
+Windows
+
+What computer classes have you taken, including high school,
+extracurricular, etc.?
+
+Computer intergrated manufacturing
+
+Have you ever programmed a computer?
+
+yes, with my father
+
+In what language(s)?
+
+C
+
+Summarize your experience:
+
+very frustrating
+
+Have you taken statistics or probability?
+
+No
+
+Why are you taking this course?
+
+For my phsics minor
+
+Are there particular topics you hope to learn?
+
+No there is not.
+
+If you have worked with scientific data or modeling before, briefly
+describe your experience:
+
+N/A
+
+Have you ever been involved with a science club or similar?  If so,
+describe:
+
+N/A
+
+***** OUT : Friday Aug 26 10:49 pm ET 2022 *****
+
+***** IN : Thursday  Sep 1 11:32 am ET 2022 *****
+
+Installed the Anaconda Navigator. Was quite simple, typed it in on google and hit download. Once it was finished i had all the programs needed (jupyter notebook, etc...)
+ URL : https://docs.anaconda.com/anaconda/navigator/
+ installed on desktop.
+
+**** Out : Thursday Sep 1 11:57 am ET 2022 *****
+
+**** IN : Tuesday Sep 6 12:00 pm ET 2022 ****
+had a lecture about functions, creating lists, slicing, and tuples.
+
+**** Out : Tuesday Sep 6 1:20 pm ET 2022 ****
+
+**** IN : Thursday Sep 8 9:06 am ET 2022 ****
+
+Problem 1 (5 points). Make a new folder named hw3_<yourname> under your 
+homework folder. For this assignment, your log is now just a part of your homework. In 
+one of the entries, it should identify the start and end of HW3 and list the problem 
+numbers in order. After each problem number, give your answer and the names of any 
+files you are handing in for each problem. If you made a HW3 entry in your log in a prior 
+session and want to change it, just copy it to the current (last) session, and edit there. 
+We will grade the last entry only. All text related to one assignment should be in one 
+entry, with the problems done in order.
+
+Created a Hw3 file on computer, and github.
+
+Problem 2. (30 points total) We will continue our practice using Git. You will add a new 
+directory from your computer to a new repository. Remember that to add a new repo 
+from the GitHub Desktop app, you can go to File → New Repository → then, in the pop 
+up window name your repository and determine its local path (e.g., in class we pointed 
+to where phz3150/ is in your laptop). If you have already set a local repository up, you 
+can go to File → Add Local Repository. Then you can publish your repository to your 
+personal GitHub account (chose “organization: None” option). If you now go to the 
+GitHub webpage, it will appear under your repositories.
+
+a) (5 points) If you haven’t done so yet, set up the GitHub repository (get the 
+GitHub desktop app, and set your name and email for the Git log). Explain how 
+you did it in your log (use past notes, or from memory if you did it in the 
+classroom last Tuesday).
+
+Created a repository in github by clicking create a repository after setting up an account and naming it PHZ3150_LoganGarcia and made a local path on my laptop.
+
+b) I. (2.5 points) If you haven’t done so yet, put your course log under 
+revision control. In your log explain how you did this in detail (again, use 
+past notes, or from memory if you did it in the classroom last Tuesday). 
+Your log should contain information about how you added the file to the 
+list of files Git keeps a track of, how you committed the file (including the 
+commit message) and how you made sure there is a backup on GitHub.
+
+placed course log in repository and is under revision control which means a short summary is needed any time a change is made to it.
+
+II. (2.5 points) Use your favorite browser to navigate to your personal 
+GitHub repository. Find your phz3150/ repository and click on it. Make a 
+screenshot of the browser showing that the folder contains your log, and 
+all the folders of your phz3150/ folder. Rename the screenshot using the 
+appropriate naming conventions and add it to your hw3_<yourname>
+folder.
+
+took a screen shot showing log was placed in repository.
+
+c) (5 points) Make a new folder named test_git in your computer (can be 
+anywhere, you can delete it later on). Put it under revision control. Explain how 
+you did this in your log (up to, but not including, publishing it).
+
+Created test_git file on desktop.
+
+d) (1 point) Take file hw1-survey.txt from Webcourses. Move it to your test_git 
+folder.
+(2 points) Go to the GitHub desktop app. Get a screenshot that shows the status 
+of the repository on the GitHub Desktop app (i.e., that something was added). 
+(1 point) Commit the change with an informative comment. 
+(2 points) Once done, remove the file from the test_git folder. Go to the 
+GitHub desktop app. Get a screenshot that shows the status of the repository 
+changed (i.e., that something was removed). 
+(1 point) Commit the change with an informative comment. 
+(1 point) Explain how you did all these to your log. 
+(2 points) Rename the screenshots using the appropriate naming conventions 
+and add them to your hw3_<yourname> folder.
+
+Added Hw1-survey from webcourses to my test_git file on my repository, opened github app, 
+placed a brief summary then commited to main, and pushed orgin. 
+then deleted file from folder went back to app put a summary, then comitted to main and pushed to origin again deleting it.
+
+(5 points) Make a screenshot of the commit history for your log (showing all the 
+commit messages, when they were made, and by whom).
+
+took screenshot.
+
+Problem 3. (10 points total) Start Jupyter. Navigate to your hw3_<yourname> folder 
+and start a new Python 3 notebook. 
+
+(2 points) Change the name of the notebook to hw3_<yourname>.ipynb (remember, 
+the extension is automatically set from Jupyter).
+
+(2 points) Use Markdown to write a descriptive text about your notebook at the start of 
+the notebook (something like “practice notebook” …).
+
+(2 points) Define variable x equal to 10 and variable y equal to 100. Define variable z
+equal to the product of x and y and variable w equal to the difference of y and x. Print 
+z and w.
+
+(2 points) Make a variable named min that is equal to 3. What do you notice? Is min a 
+good name to use for your variable? Why/ why not? Explain in your Jupyter notebook
+(make a comment in your notebook using #, do not do it in markdown).
+
+(2 points) Make a variable q equal to 1. Print q. Add one to q. Print q. In one line 
+multiply q by 10 and print the result.
+
+All parts done in juypter file in hw3 folder.
+
+**** Out : Sep 8 10:05 am ET 2022 ****
+
+**** In : Sep 14 11:41 pm ET 2022 ****
+
+Problem 1 (5 points). Make a new folder named hw4_<yourname> under you
+homework folder. For this homework your main homework file is a Python file named
+hw4_<username>.ipynb. Save it in your homework folder. Remember to commit
+your files and push to GitHub (also, great backup!).
+Your name, assignment number, and the date should appear as comments at the top of
+the notebook. At the start of every problem write the problem number using markdown
+comments. Any remarks or written answers you may make should be written with
+markdown. If you need to comment something in the code (for coding clarity) do so with
+a normal comment (i.e., # this is a comment). Remember that using comments
+good coding practice, and it will be taken into account during the grading process.
+
+folder created, and python file added.
+
+started working on problem 2 and gave up.
+
+**** Out : Sep 15 1:00 am ET 2022 ****
+
+**** In : Sep 15 7:05 am ET 2022 ****
+Problem 2
+
+We have a body of mass m (kg). When a force F (N) acts on it,
+according to Newton’s second law, the body will get an acceleration a (m/s2
+).
+Remember that F=ma. Write an expression that calculates F for the following mass and
+acceleration pairs:
+m [kg] a [m/s2]
+10 5
+15 10
+20 5
+40 3
+Then, make a function force_to_acceleration that calculates the acceleration of a
+body of mass m[kg] when a force F[N] is applied on it. Remember to use a good
+docstring! Also, remember to write enough comments throughout your code. Calculate
+the acceleration of a body of mass 150kg when forces F of 100, 22 and 450 (N) are
+applied to it.
+
+found the error in my function with the help of a classmate. error was in the syntax.
+
+
+problem 3
+
+The acceleration of a body can be approximated by the ratio of
+the change of a body’s speed (u2-u1) over a time span (t1-t1) as: a=(u2-u1)/(t2-t1).
+Write a function called acceleration(u1,u2,t1,t2) that takes the different
+speeds (u1,u2) of a body at times t1 and t2 and calculates the acceleration of the body.
+Save it in a separate .py file, not your main homework file. Remember to start the
+function with a good docstring. In your main homework file, import the function and
+calculate the acceleration of a body for the following times and speeds
+t1 [ s ] t2 [ s ] u1 [ m/s ] u2 [ m/s ]
+0 2 10 13
+10 14 15 30
+14 16 32 36
+28 32 42 20
+0 10 20 22
+Calculate these numbers some other way to check that they are correct (in general,
+always check your code in this way). State in comments how you checked (calculator,
+web site, etc.). Name 2 test cases you could use to verify the code works as it should.
+Don’t forget to use comments in your code, when appropriate!
+
+While this question seemed easy at first but when trying to create the file it was realized that the variables were backwards.
+Created a function using a = (u2-u1)/(t2-t1) and calling it acceleration. Then using the data given in the Hw_4 file ran the function.
+
+
+problem 4
+
+Create a list velocity with numbers starting from 0 to 100
+with a step of 10. Print it.
+Create a list time with numbers from 0 to 1000 with a step of 100. Print it. Print the 3rd
+up to and including the 5th element, and the 8th velocity element.
+Using the acceleration function you created above, call the function and calculate the
+acceleration of a target for each of these velocity pairs (so the 3rd-4th, 4th-5th, 5th-8th
+element), using the corresponding times. Remember that Python starts counting from 0!
+Change the 5th element of velocity to 90 and print velocity. Does it work? Why/ why
+not?
+
+used numpy to create the list to 100 and multiplied it by 10 and then created another to 1000 and multiplied it by 100
+
+after this, i became stuck and decided to submit the file to have it submitted on time.
+
+Problem 5
+
+Prepare and submit your homework. Save the finalized Jupyter
+notebook and don’t forget to commit and push it to GitHub. Explain what you did to do
+that in your log. Make a screenshot that shows you committed the file and add it to your
+hw4_<yourname> folder (remember to use an appropriate name for the screenshot!).
+Write what you did to make and submit the zip file into your log. When satisfied, close
+the log, copy it to your homework directory one last time, and make the zip file. Turn the
+file in on WebCourses.
+
+i placed all the corresponding HW files into the HW4 file, and then compressed it into a zip file and then submitted to webcourses.
+
+**** Out Sep 15 9:54 am ET 2022 ****
+
