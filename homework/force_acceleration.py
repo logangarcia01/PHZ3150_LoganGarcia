@@ -1,4 +1,4 @@
-def force_to_acceleration ( F, m ): 
+def force_acceleration ( F, m ): 
     """function that finds the acceleration of am object using the force divided by the mass
         Follows : a = F / m
         Input : Force [N], mass [kg]
