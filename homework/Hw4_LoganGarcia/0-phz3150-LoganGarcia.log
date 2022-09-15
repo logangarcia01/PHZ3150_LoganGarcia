@@ -202,6 +202,13 @@ All parts done in juypter file in hw3 folder.
 
 **** In : Sep 14 11:41 pm ET 2022 ****
 
+START of HW_4
+
+Created a Hw_4 file in class folder on computer, and commited it to github repository.
+created a summary and then commited the Hw_4 file to the Hw_4 folder and commited it to main.
+
+opened up jupyter notebook and created a file under the homework file, then named it.
+
 Problem 1 (5 points). Make a new folder named hw4_<yourname> under you
 homework folder. For this homework your main homework file is a Python file named
 hw4_<username>.ipynb. Save it in your homework folder. Remember to commit
