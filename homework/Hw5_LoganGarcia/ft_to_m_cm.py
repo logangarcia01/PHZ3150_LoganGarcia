@@ -1,6 +1,11 @@
 def ft_to_m_cm(student_h):
     
-    #Final list to store the data in form of [[m,cm], [m,cm], ... ]
+    """ Function takes the height of the student and converts from standard system to metric system
+   
+            input: ft and inches
+            output: Meters and Centimeters.
+    """
+    #Final list
     
     numlist = []
     
