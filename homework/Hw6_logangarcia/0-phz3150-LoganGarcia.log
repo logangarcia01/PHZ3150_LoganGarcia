@@ -262,3 +262,70 @@ file into your log. When satisfied, close the log, copy it to your homework dire
 last time, and make the zip file. Turn the file in on WebCourses. 
 
 Commit everything to main and upload to github, and then took the file on my computer and compressed it to a Zipfile and then submitted to webcourses.
+
+**** In: Oct 6 9:58 am ET 2022 ****
+
+
+Problem 1 (5 points). For this homework you should make a new folder called HW6/.  
+Your main homework file is a Python file named hw6_<username>.ipynb.  Save it under 
+HW6/ . Remember to commit your file often and push it to GitHub (also, great backup!). 
+We will check this as part of your grading!  
+Your name, assignment number, and the date should appear as comments at the top 
+using markdown. Put the problems numbers in markdown comments, as well as any 
+remarks or written answers you may make. If you need to comment something in the 
+code (for clarity) do so with a normal comment. Print the problem number (as in 
+“Problem 1:”) on a line by itself before each problem’s output. Use the print() 
+function to print, don’t just type the expression.  
+
+i easily printed problem 1 as a print function in notebook and also printed done.
+
+Problem 2 (15 points). Import numpy and matplotlib.pyplot. Create 
+a numpy array x that goes from 1 up to and including 100 (last element must be 
+100.0) with a step of 0.5. Create array y that is the log10 of x and array z that is equal 
+to the square root of x. Plot y(x) and z(x) in the same plot. Manually specify different 
+colors, line styles, line thicknesses, markers (and their size) and tickmarks for your plot. 
+Add titles to your plot axis. Make sure they are legible. Save it as a pdf file using the 
+appropriate naming conventions.
+
+had an issue making the lines follow my x values till i figured out i was not using the x values, then i made it x,y and x,z to use the x values
+
+
+Problem 3. (15 points) Create a numpy array q that has the values: 45, 24, 5 ,30 , 3, 
+67, 33, 60, 65, 13, 82, 75, 21, 77, 67, 8, 86, 62, 23, 70, 11, 70, 21, 15, 84, 51, 6, 79, 78, 
+66,  2, 93, 49, 74, 23, 85, 25, 38, 1, 89 . Print the array. Print the locations where q is 
+larger than 50. Print, in one command, the elements of q that are larger than 50 and 
+smaller than 70.   
+  
+Make a list q_list out of q. Print the 12th up to and including the 14th elements of  
+the list q_list. Change element 28 of the list to be 42.0. Does it work? Why/ why not? 
+Explain.    
+ 
+Make a tuple q_tuple out of q. Print the 20th element of q_tuple. Change  
+element 21 of q_tuple to be 44.0. Does it work? Why/ why not? Explain.   
+  
+Create a list of strings word_list that contains the words ‘twinkle’, ‘twinkle’, ‘little’,  
+‘star’. Scan every word (one by one is fine, we haven’t talked about for loops yet) of  
+your list and find out which words contain a ‘e’, and which words contain an ‘a’. Also, 
+find the index of the letter ‘e’ and ‘a’ in the word (e.g., in Mary ‘a’ is on 1). Is word ‘star’ 
+or ‘bright’ in your word_list? Write the code to test it.  
+
+making the array was easy as well as finding the elements that were larger. then making the list and tuple were easy too. i did not know how to do the last part so i skipped it.
+
+Problem 4 (15 points). Create a function word_to_number that takes as input an 
+English word that corresponds to a number from 0 to 20 (‘zero’, ‘one’ etc) and returns 
+the corresponding number (0, 1, etc). In the function create a dictionary that maps every 
+appropriate English word to the corresponding number (so 1 will be mapped to ‘one’ ). 
+The keys should be your words and the values the number. Remember to write an 
+appropriate docstring for your function! In the main program call the function for: ‘three’, 
+‘seven’, ‘twelve’ , ‘sixteen’ and ‘nineteen’ and print an informative statements (e.g., “ 
+‘three’ is 3 “ ). 
+
+Problem 5 (10 points).  Prepare and submit your homework. Copy the finalized Jupyter  
+notebook to the handin/hw6_* folder and don’t forget to commit and push it to  
+GitHub. Explain what you did to do that in your log. Make a screenshot that shows you  
+committed the file and add it to your handin/hw6_* folder (remember to use an  
+appropriate name for the screenshot!). Write what you did to make and submit the zip  
+file into your log. When satisfied, close the log, copy it to your homework directory one  
+last time, and make the zip file. Turn the file in on WebCourses. 
+
+Commit everything to main and upload to github, and then took the file on my computer and compressed it to a Zipfile and then submitted to webcourses.
