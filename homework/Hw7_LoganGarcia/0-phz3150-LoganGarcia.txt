@@ -1,0 +1,385 @@
+Logan Garcia
+
+Log for PHZ3150 Fall 2022
+
+***** IN : Thursday Aug 25 12:42 pm ET 2022 *****
+
+Opened TextEdit, started this log, saved as:  
+Desktop/0-phz3150-LoganGarcia.log
+
+Downloaded anaconda navigator
+
+***** OUt : Thursday Aug 25 1:21 pm ET 2022 *****
+
+***** IN : Friday Aug 26 10:35 pm ET 2022 *****
+
+UCF Physics PHZ 3150: Introduction to Numerical Computing
+
+Name: Logan Garcia
+
+Email: logan.garcia2000@knights.ucf.edu
+
+Phone: 803-818-8354
+
+Major: Interdisiplinary Studies
+
+Year: 5th year
+
+ID: lo492446
+
+How did you hear about this course?
+
+It was on a list of courses to take with my physics minor
+
+Do you have a laptop you can bring to class, install software on, etc.?
+
+Yes
+
+What operating system and version does it run?
+
+Windows 10
+
+How much free disk space does it have?
+
+43GB
+
+What operating systems are you comfortable working in?
+
+Windows
+
+What computer classes have you taken, including high school,
+extracurricular, etc.?
+
+Computer intergrated manufacturing
+
+Have you ever programmed a computer?
+
+yes, with my father
+
+In what language(s)?
+
+C
+
+Summarize your experience:
+
+very frustrating
+
+Have you taken statistics or probability?
+
+No
+
+Why are you taking this course?
+
+For my phsics minor
+
+Are there particular topics you hope to learn?
+
+No there is not.
+
+If you have worked with scientific data or modeling before, briefly
+describe your experience:
+
+N/A
+
+Have you ever been involved with a science club or similar?  If so,
+describe:
+
+N/A
+
+***** OUT : Friday Aug 26 10:49 pm ET 2022 *****
+
+***** IN : Thursday  Sep 1 11:32 am ET 2022 *****
+
+Installed the Anaconda Navigator. Was quite simple, typed it in on google and hit download. Once it was finished i had all the programs needed (jupyter notebook, etc...)
+ URL : https://docs.anaconda.com/anaconda/navigator/
+ installed on desktop.
+
+**** Out : Thursday Sep 1 11:57 am ET 2022 *****
+
+**** IN : Tuesday Sep 6 12:00 pm ET 2022 ****
+had a lecture about functions, creating lists, slicing, and tuples.
+
+**** Out : Tuesday Sep 6 1:20 pm ET 2022 ****
+
+**** IN : Thursday Sep 8 9:06 am ET 2022 ****
+
+Problem 1 (5 points). Make a new folder named hw3_<yourname> under your 
+homework folder. For this assignment, your log is now just a part of your homework. In 
+one of the entries, it should identify the start and end of HW3 and list the problem 
+numbers in order. After each problem number, give your answer and the names of any 
+files you are handing in for each problem. If you made a HW3 entry in your log in a prior 
+session and want to change it, just copy it to the current (last) session, and edit there. 
+We will grade the last entry only. All text related to one assignment should be in one 
+entry, with the problems done in order.
+
+Created a Hw3 file on computer, and github.
+
+Problem 2. (30 points total) We will continue our practice using Git. You will add a new 
+directory from your computer to a new repository. Remember that to add a new repo 
+from the GitHub Desktop app, you can go to File → New Repository → then, in the pop 
+up window name your repository and determine its local path (e.g., in class we pointed 
+to where phz3150/ is in your laptop). If you have already set a local repository up, you 
+can go to File → Add Local Repository. Then you can publish your repository to your 
+personal GitHub account (chose “organization: None” option). If you now go to the 
+GitHub webpage, it will appear under your repositories.
+
+a) (5 points) If you haven’t done so yet, set up the GitHub repository (get the 
+GitHub desktop app, and set your name and email for the Git log). Explain how 
+you did it in your log (use past notes, or from memory if you did it in the 
+classroom last Tuesday).
+
+Created a repository in github by clicking create a repository after setting up an account and naming it PHZ3150_LoganGarcia and made a local path on my laptop.
+
+b) I. (2.5 points) If you haven’t done so yet, put your course log under 
+revision control. In your log explain how you did this in detail (again, use 
+past notes, or from memory if you did it in the classroom last Tuesday). 
+Your log should contain information about how you added the file to the 
+list of files Git keeps a track of, how you committed the file (including the 
+commit message) and how you made sure there is a backup on GitHub.
+
+placed course log in repository and is under revision control which means a short summary is needed any time a change is made to it.
+
+II. (2.5 points) Use your favorite browser to navigate to your personal 
+GitHub repository. Find your phz3150/ repository and click on it. Make a 
+screenshot of the browser showing that the folder contains your log, and 
+all the folders of your phz3150/ folder. Rename the screenshot using the 
+appropriate naming conventions and add it to your hw3_<yourname>
+folder.
+
+took a screen shot showing log was placed in repository.
+
+c) (5 points) Make a new folder named test_git in your computer (can be 
+anywhere, you can delete it later on). Put it under revision control. Explain how 
+you did this in your log (up to, but not including, publishing it).
+
+Created test_git file on desktop.
+
+d) (1 point) Take file hw1-survey.txt from Webcourses. Move it to your test_git 
+folder.
+(2 points) Go to the GitHub desktop app. Get a screenshot that shows the status 
+of the repository on the GitHub Desktop app (i.e., that something was added). 
+(1 point) Commit the change with an informative comment. 
+(2 points) Once done, remove the file from the test_git folder. Go to the 
+GitHub desktop app. Get a screenshot that shows the status of the repository 
+changed (i.e., that something was removed). 
+(1 point) Commit the change with an informative comment. 
+(1 point) Explain how you did all these to your log. 
+(2 points) Rename the screenshots using the appropriate naming conventions 
+and add them to your hw3_<yourname> folder.
+
+Added Hw1-survey from webcourses to my test_git file on my repository, opened github app, 
+placed a brief summary then commited to main, and pushed orgin. 
+then deleted file from folder went back to app put a summary, then comitted to main and pushed to origin again deleting it.
+
+(5 points) Make a screenshot of the commit history for your log (showing all the 
+commit messages, when they were made, and by whom).
+
+took screenshot.
+
+Problem 3. (10 points total) Start Jupyter. Navigate to your hw3_<yourname> folder 
+and start a new Python 3 notebook. 
+
+(2 points) Change the name of the notebook to hw3_<yourname>.ipynb (remember, 
+the extension is automatically set from Jupyter).
+
+(2 points) Use Markdown to write a descriptive text about your notebook at the start of 
+the notebook (something like “practice notebook” …).
+
+(2 points) Define variable x equal to 10 and variable y equal to 100. Define variable z
+equal to the product of x and y and variable w equal to the difference of y and x. Print 
+z and w.
+
+(2 points) Make a variable named min that is equal to 3. What do you notice? Is min a 
+good name to use for your variable? Why/ why not? Explain in your Jupyter notebook
+(make a comment in your notebook using #, do not do it in markdown).
+
+(2 points) Make a variable q equal to 1. Print q. Add one to q. Print q. In one line 
+multiply q by 10 and print the result.
+
+All parts done in juypter file in hw3 folder.
+
+**** Out : Sep 8 10:05 am ET 2022 ****
+
+**** In : Sep 21 4:50 pm ET 2022 ****
+
+Created a Hw5_LoganGarcia folder and also added HW5 PDF to the folder and commited it to main.
+
+Problem 1 (5 points). Make a new folder named hw5_<yourname>.  
+For this homework your main homework file is a Python file named  
+hw5_<username>.ipynb.  Save it in your homework folder. Remember to commit  
+your files and push to GitHub (also, great backup!). Your name, assignment number,  
+and the date should appear as comments at the top of the notebook. At the start of  
+every problem, write the problem number using markdown comments. Any remarks or  
+written answers you may make should also be written with markdown. If you need to  
+comment something in the code (for coding clarity) do so with a normal comment (i.e., #  
+this is a comment). Print the problem number (as in “Problem 1:”) before each  
+problem’s output. Use the print() function to print, don’t just type the expression.  
+ 
+Start your notebook by importing numpy.
+
+**** Out : Sep 21 5:00 pm ET 2022 ****
+**** In : Sep 22 10:25 am ET 2022 ****
+
+Problem 2 (15 points).  Recall the quadratic formula 𝑥 =−𝑏±√𝑏2−4𝑎𝑐
+2𝑎 , which solves for 
+the roots of  𝑎𝑥2 +𝑏𝑥+𝑐 =0. Write a function that calculates and returns a list 
+containing both of the roots, given the three coefficients. Be sure to include a docstring! 
+What does it need to include? Calculate the roots of 𝑥2 −𝑥−12 =0, returning them 
+directly into two variables. Print them. 
+
+This problem gave me issues so i skipped it after some time.
+
+Problem 3 (10 points).  Create a list student_h that contains lists with the heights of 
+students in feet and inches. A person being 5' 6" would be noted as [5, 6], a person 
+being 5' 10" would be noted as [5, 10] etc. Populate it with the heights of five students 
+who are : 5’ 1”, 4’ 10”, 6’ 02”, 5’ 07”, and 6’ 11”.  
+Create a function ft_to_m_cm that takes as input a value from student_h and  
+returns each height in a new list [m, cm] (round cm up). Call the function for all values of  
+student_h and print the results with an informative sentence (e.g., Student 1 has a  
+height of 1 m 10 cm )  (Remember that 1 ft ~= 0.3048 m and 1 inch ~= 0.0254 m and  
+1m has 100cm). 
+
+For this problem i got everything to work, except the print statement.
+
+Problem 4 (20 points). Create a function displacement(u_init, t ,a) that 
+calculates the total displacement of a body during a time interval t, when the body has 
+initial speed u_init and a constant acceleration a. Save it in a separate .py file, not 
+your main homework file. Remember to start the function with a proper docstring.  
+The displacement of a body that moves with a constant acceleration will be:  
+s=u_init*t+0.5*a*t2, where t is the total time the object moves, a the  
+constant acceleration and u_init the initial speed of the body. In your main homework  
+file import the function and calculate the total displacement for u_init=0, a=[10, 
+20, 30] and t=[2,4,14]. Again, calculate these numbers some other way to check 
+that they are correct, and write on your log how you checked it. 
+
+
+Problem 5 (10 points).  Prepare and submit your homework. Copy the finalized Jupyter  
+notebook to the handin/hw5_* folder and don’t forget to commit and push it to  
+GitHub. Explain what you did to do that in your log. Make a screenshot that shows you  
+committed the file and add it to your handin/hw5_* folder (remember to use an  
+appropriate name for the screenshot!). Write what you did to make and submit the zip  
+file into your log. When satisfied, close the log, copy it to your homework directory one  
+last time, and make the zip file. Turn the file in on WebCourses. 
+
+Commit everything to main and upload to github, and then took the file on my computer and compressed it to a Zipfile and then submitted to webcourses.
+
+**** In: Oct 6 9:58 am ET 2022 ****
+
+
+Problem 1 (5 points). For this homework you should make a new folder called HW6/.  
+Your main homework file is a Python file named hw6_<username>.ipynb.  Save it under 
+HW6/ . Remember to commit your file often and push it to GitHub (also, great backup!). 
+We will check this as part of your grading!  
+Your name, assignment number, and the date should appear as comments at the top 
+using markdown. Put the problems numbers in markdown comments, as well as any 
+remarks or written answers you may make. If you need to comment something in the 
+code (for clarity) do so with a normal comment. Print the problem number (as in 
+“Problem 1:”) on a line by itself before each problem’s output. Use the print() 
+function to print, don’t just type the expression.  
+
+i easily printed problem 1 as a print function in notebook and also printed done.
+
+Problem 2 (15 points). Import numpy and matplotlib.pyplot. Create 
+a numpy array x that goes from 1 up to and including 100 (last element must be 
+100.0) with a step of 0.5. Create array y that is the log10 of x and array z that is equal 
+to the square root of x. Plot y(x) and z(x) in the same plot. Manually specify different 
+colors, line styles, line thicknesses, markers (and their size) and tickmarks for your plot. 
+Add titles to your plot axis. Make sure they are legible. Save it as a pdf file using the 
+appropriate naming conventions.
+
+had an issue making the lines follow my x values till i figured out i was not using the x values, then i made it x,y and x,z to use the x values
+
+
+Problem 3. (15 points) Create a numpy array q that has the values: 45, 24, 5 ,30 , 3, 
+67, 33, 60, 65, 13, 82, 75, 21, 77, 67, 8, 86, 62, 23, 70, 11, 70, 21, 15, 84, 51, 6, 79, 78, 
+66,  2, 93, 49, 74, 23, 85, 25, 38, 1, 89 . Print the array. Print the locations where q is 
+larger than 50. Print, in one command, the elements of q that are larger than 50 and 
+smaller than 70.   
+  
+Make a list q_list out of q. Print the 12th up to and including the 14th elements of  
+the list q_list. Change element 28 of the list to be 42.0. Does it work? Why/ why not? 
+Explain.    
+ 
+Make a tuple q_tuple out of q. Print the 20th element of q_tuple. Change  
+element 21 of q_tuple to be 44.0. Does it work? Why/ why not? Explain.   
+  
+Create a list of strings word_list that contains the words ‘twinkle’, ‘twinkle’, ‘little’,  
+‘star’. Scan every word (one by one is fine, we haven’t talked about for loops yet) of  
+your list and find out which words contain a ‘e’, and which words contain an ‘a’. Also, 
+find the index of the letter ‘e’ and ‘a’ in the word (e.g., in Mary ‘a’ is on 1). Is word ‘star’ 
+or ‘bright’ in your word_list? Write the code to test it.  
+
+making the array was easy as well as finding the elements that were larger. then making the list and tuple were easy too. i did not know how to do the last part so i skipped it.
+
+Problem 4 (15 points). Create a function word_to_number that takes as input an 
+English word that corresponds to a number from 0 to 20 (‘zero’, ‘one’ etc) and returns 
+the corresponding number (0, 1, etc). In the function create a dictionary that maps every 
+appropriate English word to the corresponding number (so 1 will be mapped to ‘one’ ). 
+The keys should be your words and the values the number. Remember to write an 
+appropriate docstring for your function! In the main program call the function for: ‘three’, 
+‘seven’, ‘twelve’ , ‘sixteen’ and ‘nineteen’ and print an informative statements (e.g., “ 
+‘three’ is 3 “ ). 
+
+Problem 5 (10 points).  Prepare and submit your homework. Copy the finalized Jupyter  
+notebook to the handin/hw6_* folder and don’t forget to commit and push it to  
+GitHub. Explain what you did to do that in your log. Make a screenshot that shows you  
+committed the file and add it to your handin/hw6_* folder (remember to use an  
+appropriate name for the screenshot!). Write what you did to make and submit the zip  
+file into your log. When satisfied, close the log, copy it to your homework directory one  
+last time, and make the zip file. Turn the file in on WebCourses. 
+
+Commit everything to main and upload to github, and then took the file on my computer and compressed it to a Zipfile and then submitted to webcourses.
+
+***In: Oct 18 8:00 AM ET 2022 ***
+
+Problem 1 (5 points). Make a new folder named hw7_ under you HW folder. As before, your main homework file is a Python file named
+hw7_.ipynb. Save it in your homework folder. Remember to commit
+your files and push to GitHub (also, great backup!). Your name, assignment number,
+and the date should appear as comments at the top of the notebook. Any remarks or
+written answers you may make should be written with markdown. If you need to
+comment something in the code (for coding clarity) do so with a normal comment (i.e., #
+this is a comment). Print the problem number (as in “Problem 1:”) before each
+problem’s output. Use the print() function to print, don’t just type the expression. Start
+your notebook by importing numpy.
+
+did this with ease as it is required every HW
+
+Problem 2 (15 points). For loops automatically iterate over a parameter i (unlike while loops). They start from i=0 (or whichever value you ask), do what you want them to do and then automatically do i = i+1 (i+=1). Writing an extra i = i+1 can create accidental bugs in for loops, while missing a i = i+1 can make your while loops run an infinite time.
+
+Code a program that scans the sentence: “Deleting an item from a list or array while iterating over it is a Python problem that is well known to any experienced software developer” and prints out the words it’s made of.
+
+Then, use a for loop to loop over the full sentence, and print - at the end - only the longest word of the sentence.
+Do the same program, but now looping over the sentence with a while loop.
+
+Create a program that scans only the first 6 words (so “"Deleting an item from a list”) and prints only the UNIQUE letters in this sentence.
+
+The first 2 parts of this problem were Ok, but the last part i became hung up on and did not complete.
+
+
+Problem 3 (15 points). Open a text file and name it hw7_support_funct.py . Do not write the function on the Jupyter notebook you may be using, as it will store the function in its memory and you may think that you imported from the .py file when you didn’t. If you chose to test the code on the Jupyter notebook, use a different name for your function in the two locations so that you can separate the two.
+
+In the hw7_support_funct.py create a function circle(x,x0,y0,r) that takes as input an array x, the coordinates of the center of the circle (x0,y0) and a radius r and return all y coordinates of the circle with radius r. Remember that a circle follows the: (x-x0)2+(y-y0)2 = r2. Write an appropriate informative docstring. Go in your main homework file and import the function circle. Call it for (x0,y0)= (2,2), x = - 8.+0.1*np.arange(220) and r =10. Use the y coordinates to plot the circle (if you get only half a circle, why is that? Explain and fix your function to return both values).
+
+This problem was difficult as my function was not wanting to work properly, then when i tried to show the positive values it was not reading my new variable and i tried several different thing. ultimately i had to stop.
+
+
+Problem 4 (15 points). In the hw7_support_funct.py create a function order_array(input_array) that takes as input an array of numbers and orders them from smaller to larger (don’t use any predefined function -numpy or otherwise- though!). Write an appropriate and informative docstring. Save it in your hw7_support_funct.py. Import the function in the main homework folder and call it for the array: np.array([4,5,2,10,42,22,8,12]). Now use the appropriate numpy function to test your results.
+This one was probably the worst for me as i tried to create the function but when i finally did it would not re organize the numbers like they should. once i plugged in the numpy way it worked but it looks like my function may be broken.
+
+
+Problem 5 (5 points). You are given array my_data = np.arange( 1, 26 ).reshape( (5, 5) ). Access and print the numbers 4 9 14 19 24. Scan my_data with a for/if structure and find the maximum. Calculate the mean of the my_data using a for/if. How could you get the maximum and mean, much faster?
+
+This problem was the easiest out of the 6. although it would have been easier to just use numpy max and mean functions.
+
+Bonus problem 6 (5 points). Code a program that will print the following 1-0 pyramid.  
+ i did not atttempt this even though i should have.
+
+Problem 7 (10 points).  Prepare and submit your homework. Copy the finalized Jupyter  
+notebook to the handin/hw7_* folder and don’t forget to commit and push it to  
+GitHub. Explain what you did to do that in your log. Make a screenshot that shows you  
+committed the file and add it to your handin/hw7_* folder (remember to use an  
+appropriate name for the screenshot!). Write what you did to make and submit the zip  
+file into your log. When satisfied, close the log, copy it to your homework directory one  
+last time, and make the zip file. Turn the file in on WebCourses.
+
+commited the files to git hub and then created a zip file and submitted it.
