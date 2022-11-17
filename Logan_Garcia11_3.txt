@@ -1,0 +1,79 @@
+# make my imports
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# get the data from the experiments:
+
+my_data = np.array( ( [12, 34, -3, 27, 28, -17 ],
+                    [ 6, 52, 37, -22, -67, 12 ],
+                    [29, -124, 8, -45, -44, 50 ],
+                    [ 3, 18, -69, 32, 48, 284 ] ) )
+
+my_control_data = np.array( ( [12, 442, -12, 22, 21, 17 ],
+                    [ 0, -32, 32, -22, -61, -2 ],
+                    [22, -14, 8, 35, -41, 45 ],
+                    [ 33, 21, -62, 132, 47, 34 ] ) )
+
+# The data should be consistent with each other. Check that values of a given measurement
+# (a given i,j combination) are within fifteen percent (relatively) of each other. These are good data!
+# If they are within 25% they may be noisy measurements.
+# If they flip sign they are useless data.
+# Make a mask data_control that contains info about the quality of the data:
+# 1: good, 2: within 15%-25%, 3: 25%+, 4: bad data (>0 in one measurement, <0 in the other)
+
+
+#make mask data control array equal to 3:
+data_control = 0 * my_data + 3   #Got rid of the point after the 0 here
+
+# loop over arrays and check values:
+for l1 in range( 4 ):
+    for l2 in range( 6 ):
+      #calculate the relative error
+      #Removed i and j in the brackets bellow
+        rel_dif = (my_data[ l1, l2 ] - my_control_data[ l1, l2 ])/ my_control_data[ l1, l2 ]
+      #check it in comparison to the known limits and flag the mask accordingly
+        if rel_dif <= 0.15:
+            data_control[ l1, l2] = 1 #Changed to l1 and l2 instead of i and j
+        elif (rel_dif > 0.15 and rel_dif <= 0.25 ):
+            data_control[ l1, l2] = 2 # removed i and j again
+        elif (my_data[ l1, l2 ] > 0 and my_control_data[ l1, l2 ] < 0) or (my_data[ l1, l2 ] < 0 and my_control_data[ l1, l2 ] > 0) : # changed the 3rd and to an or and removed the slash
+            data_control[ l1, l2 ] = 4
+      
+      
+
+#check the output:
+print( data_control )
+
+#visualize your results:
+# plot the datasets using a different color for the different flags: 1= red, 2 = blue, 3 = gray, 4 = orange
+# also use different symbols: 1 = circles, 2 = squares, 3 = diamonds, 4 = stars
+
+#get edges of plot:
+min_xy = np.min( [np.min( my_data ), np.min( my_control_data ) ] )
+max_xy = np.max( [np.max( my_data ), np.max( my_control_data ) ] )
+
+#set up the plot
+plt.figure( figsize= (8,8) )
+
+plt.plot( np.arange( 24 ), np.linspace( min_xy, max_xy, num = 24 ) , linestyle = 'none')
+
+n = 0
+#plot all i,j combinations:
+for i in range( 4 ):
+    for j in range( 6 ):
+      
+        if data_control[ i, j ] == 1:
+            plt.plot( n, my_data[ i,j ], color = 'red', marker = 'o' )
+            plt.plot( n, my_control_data[ i,j ], color = 'red', marker = 'o' )
+        if data_control[ i, j ] == 2:
+            plt.plot( n, my_data[ i,j ], color = 'blue', marker = 's' )
+            plt.plot( n, my_control_data[ i,j ], color = 'blue', marker = 's' )
+        if data_control[ i, j ] == 3:
+            plt.plot( n, my_data[ i,j ], color = 'gray', marker = 'd' )
+            plt.plot( n, my_control_data[ i,j ], color = 'gray', marker = 'd' )
+        if data_control[ i, j ] == 4:
+            plt.plot( n, my_data[ i,j ], color = 'orange', marker = '*' )
+            plt.plot( n, my_control_data[ i,j ] )
+
+    n = n + 1
